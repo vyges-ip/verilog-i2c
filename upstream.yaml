@@ -1,0 +1,17 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "standalone"
+  repo: https://github.com/alexforencich/verilog-i2c
+  branch: master
+  commit: a65be4045e898a52e791c6ee71f8f79a7cd2e129
+import:
+  rtl:
+    - path: "rtl"
+      map_to: "rtl"
+  license:
+    - path: "LICENSE"
+  readme:
+    - path: "README.md"
+license:
+  spdx: MIT
+  file: LICENSE
